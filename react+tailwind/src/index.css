@@ -1,0 +1,276 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+CU:wght@100..400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playwrite+CU:wght@100..400&display=swap");
+@import "tailwindcss";
+@tailwind utilities;
+
+@theme {
+  --font-montserrat: "Montserrat", sans-serif;
+}
+
+@theme {
+  --font-nunito: "Nunito", sans-serif;
+}
+
+@theme {
+  --breakpoint-xs: 30rem;
+  --breakpoint-2xl: 100rem;
+  --breakpoint-3xl: 120rem;
+}
+
+
+
+@theme {
+  --animate-slideInRight: slideInRight 1s ease-in-out;
+
+  @keyframes slideInRight {
+    0% {
+      transform: translateX(-300px);
+      opacity: 0.3;
+    }
+
+    50% {
+      opacity: 0.4;
+    }
+
+    75% {
+      opacity: 0.5;
+    }
+
+    85% {
+      opacity: 0.6;
+    }
+
+    95% {
+      opacity: 0.8;
+    }
+
+    98% {
+      opacity: 0.9;
+    }
+
+    100% {
+      transform: translateX(0px);
+      opacity: 1;
+    }
+  }
+}
+
+@theme {
+  --animate-slideInleft: slideInleft 1s ease-in-out;
+
+  @keyframes slideInleft {
+    0% {
+      transform: translateX(300px);
+      opacity: 0.3;
+    }
+
+    50% {
+      opacity: 0.4;
+    }
+
+    75% {
+      opacity: 0.5;
+    }
+
+    85% {
+      opacity: 0.6;
+    }
+
+    95% {
+      opacity: 0.8;
+    }
+
+    98% {
+      opacity: 0.9;
+    }
+
+    100% {
+      transform: translateX(0px);
+      opacity: 1;
+    }
+  }
+}
+
+@theme {
+  --animate-slideUp: slideUp 1s ease-out;
+
+  @keyframes slideUp {
+    0% {
+      transform: translateY(300px);
+      opacity: 0.3;
+    }
+
+    100% {
+      transform: translateY(0px);
+      opacity: 1;
+    }
+  }
+}
+
+@theme {
+  --animate-slowSlideUp: slowSlideUp 1s ease-out;
+
+  @keyframes slowSlideUp {
+    0% {
+      transform: translateY(150px);
+   
+    }
+   
+    100% {
+      transform: translateY(0px);
+ 
+    }
+  }
+}
+
+@theme {
+  --animate-slowSlideUp2: slowSlideUp2 1s ease-in-out;
+
+  @keyframes slowSlideUp2 {
+    0% {
+      transform: translateY(300px);
+      opacity: 0.3;
+    }
+    50% {
+      opacity: 0.4;
+    }
+    75% {
+      opacity: 0.5;
+    }
+    85% {
+      opacity: 0.6;
+    }
+    95% {
+      opacity: 0.8;
+    }
+    98% {
+      opacity: 0.9;
+    }
+    100% {
+      transform: translateY(0px);
+      opacity: 1;
+    }
+  }
+}
+
+@theme {
+  --animate-slowSlideUp3: slowSlideUp3 1.4s ease-in-out;
+
+  @keyframes slowSlideUp3 {
+    0% {
+      transform: translateY(300px);
+      opacity: 0.3;
+    }
+    50% {
+      opacity: 0.4;
+    }
+    75% {
+      opacity: 0.5;
+    }
+    85% {
+      opacity: 0.6;
+    }
+    95% {
+      opacity: 0.8;
+    }
+    98% {
+      opacity: 0.9;
+    }
+    100% {
+      transform: translateY(0px);
+      opacity: 1;
+    }
+  }
+}
+
+@theme {
+  --animate-slowSlideUp4: slowSlideUp4 2s ease-in-out;
+
+  @keyframes slowSlideUp4 {
+    0% {
+      transform: translateY(300px);
+      opacity: 0.3;
+    }
+    50% {
+      opacity: 0.4;
+    }
+    75% {
+      opacity: 0.5;
+    }
+    85% {
+      opacity: 0.6;
+    }
+    95% {
+      opacity: 0.8;
+    }
+    98% {
+      opacity: 0.9;
+    }
+    100% {
+      transform: translateY(0px);
+      opacity: 1;
+    }
+  }
+}
+
+@theme {
+  --animate-slowSlideUp5: slowSlideUp5 2.8s ease-in-out;
+
+  @keyframes slowSlideUp5 {
+    0% {
+      transform: translateY(300px);
+      opacity: 0.3;
+    }
+    50% {
+      opacity: 0.4;
+    }
+    75% {
+      opacity: 0.5;
+    }
+    85% {
+      opacity: 0.6;
+    }
+    95% {
+      opacity: 0.8;
+    }
+    98% {
+      opacity: 0.9;
+    }
+    100% {
+      transform: translateY(0px);
+      opacity: 1;
+    }
+  }
+}
+
+@keyframes slowSlideUp {
+  0% {
+    transform: translateY(300px);
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 0.4;
+  }
+  75% {
+    opacity: 0.5;
+  }
+  85% {
+    opacity: 0.6;
+  }
+  95% {
+    opacity: 0.8;
+  }
+  98% {
+    opacity: 0.9;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+@layer utilities {
+  .animate-slowSlideUp {
+    animation: slowSlideUp 0.5s ease-in-out forwards;
+  }
+}
