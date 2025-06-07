@@ -19,7 +19,7 @@ const XM6 = () => {
     <>
       <NavBar />
       <main
-        className=" h-300 bg-neutral-200 flex max-sm:flex-col  max-sm:w-[620px]  p-5 max-md:flex-col max-md:w-[750px]
+        className=" h-300 bg-neutral-200 flex max-sm:flex-col  max-sm:w-full  p-5 max-md:flex-col max-md:w-[750px]
       max-md:text-2xl  md:flex-col lg:flex-row w-full"
       >
         <Card
@@ -37,7 +37,7 @@ const XM6 = () => {
         <h2
           ref={ref}
           className={`flex text-6xl my-21 transition-all duration-50 max-sm:flex  
-            max-sm:justify-center max-sm:w-[540px] max-sm:text-5xl max-md:justify-center max-md:w-[650px] max-md:text-6xl md:justify-center md:w-[750px] lg:w-full  ${
+            max-sm:justify-center max-sm:w-full max-sm:text-5xl max-md:justify-center max-md:w-[650px] max-md:text-6xl md:justify-center md:w-[750px] lg:w-full  ${
               inView ? "animate-slowSlideUp3" : "opacity-0 translate-y-[300px]"
             }`}
         >
@@ -45,7 +45,7 @@ const XM6 = () => {
         </h2>
         <div
           className="flex justify-center my-15 h-150 max-sm:flex max-sm:items-center 
-             max-sm:w-[540px] sm:flex  max-md:w-[650px] md:w-[760px] lg:w-full "
+             max-sm:w-full sm:flex  max-md:w-[650px] md:w-[760px] lg:w-full "
         >
           <iframe
             width="500"
@@ -86,7 +86,7 @@ const XM6 = () => {
 
         <div
           className="flex flex-row-reverse w-full p-15 mt-20 max-md:flex-col max-sm:flex max-sm:items-center 
-            max-sm:justify-center max-sm:w-[540px] sm:flex  max-md:w-full max-md:relative  md:flex-col md:w-full md:relative lg:flex-row-reverse lg:w-full "
+            max-sm:justify-center max-sm:w-full sm:flex  max-md:w-full max-md:relative  md:flex-col md:w-full md:relative lg:flex-row-reverse lg:w-full "
         >
           <img
             src={threexm6}
@@ -114,7 +114,7 @@ const XM6 = () => {
 
         <div
           className="flex w-full p-15 max-md:flex-col max-sm:flex max-sm:items-center 
-            max-sm:justify-center max-sm:w-full  max-md:w-full max-md:relative md:flex-col md:w-full md:relative lg:flex-row lg:w-full "
+            max-sm:justify-center max-sm:w-full max-sm:relative max-sm:mt-23  max-md:w-full max-md:relative md:flex-col md:w-full md:relative lg:flex-row lg:w-full "
         >
           <div className="flex items-center justify-center mt-25">
             <img
@@ -125,7 +125,7 @@ const XM6 = () => {
           </div>
 
           <div className="flex flex-col items-center justify-center mt-25 ">
-            <h3 className="text-6xl mb-12 max-sm:text-6xl max-md:text-7xl md:absolute md:top-2 lg:w-justify-center lg:mt-35">
+            <h3 className="text-6xl mb-12 max-sm:text-6xl max-sm:absolute max-sm:top-0 max-md:text-7xl md:absolute md:top-2 lg:w-justify-center lg:mt-35">
               Noice Cancel
             </h3>
             <p

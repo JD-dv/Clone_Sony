@@ -183,7 +183,7 @@ const LinkBuds = () => {
             </p>
           </div>
         </div>
- <div
+        <div
           className="flex w-full p-15 max-md:flex-col max-sm:flex max-sm:items-center 
             max-sm:justify-center max-sm:w-full  max-md:w-full max-md:relative md:flex-col md:w-full md:relative lg:flex-row lg:w-full "
         >
