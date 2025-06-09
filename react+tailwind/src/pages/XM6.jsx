@@ -37,7 +37,7 @@ const XM6 = () => {
         <h2
           ref={ref}
           className={`flex text-6xl my-21 transition-all duration-50 max-sm:flex  
-            max-sm:justify-center max-sm:w-full max-sm:text-5xl max-md:justify-center max-md:w-[650px] max-md:text-6xl md:justify-center md:w-[750px] lg:w-full  ${
+            max-sm:justify-center max-sm:w-full max-sm:text-5xl max-md:justify-center max-md:w-full max-md:text-6xl md:justify-center md:w-full lg:w-full  ${
               inView ? "animate-slowSlideUp3" : "opacity-0 translate-y-[300px]"
             }`}
         >
@@ -45,7 +45,7 @@ const XM6 = () => {
         </h2>
         <div
           className="flex justify-center my-15 h-150 max-sm:flex max-sm:items-center 
-             max-sm:w-full sm:flex  max-md:w-[650px] md:w-[760px] lg:w-full "
+             max-sm:w-full sm:flex  max-md:w-[650px] md:w-full lg:w-full "
         >
           <iframe
             width="500"
